@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3> This is HTML Forms</h3>
+        <form action="backend.php">
+        <!-- submit the data of the form to backend.php file  -->
+        <label for="name">Name:</label>
+        <div>
+                <input type="text" name="Myname" id="name">
+        </div>
+        <div>
+                email : <input type="email" name="myemail">
+        </div>
+        <label for="eligible">Eligibility:</label>
+        <div>
+                <input type="checkbox" name="Myeligibility" id="eligible">
+        </div>
+        <div>
+                Gender :
+                
+                Male<input type="radio" name="Mygender">
+                female<input type="radio" name="Mygender">
+                 prefer not to say<input type="radio" name="Mygender">
+        </div>ss
+        <div>
+                my number : 
+                <input type="number" name="Mynumber">
+        </div>
+        <div>
+                my date of birth : 
+                <input type="date" name="MyDOB">
+        </div>  
+        <div>
+                write about yourself : 
+                <textarea name="Mytext" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+                <input type="submit" value="Submit now">
+        </div>
+        <div>
+                <input type="reset" value="Reset Now">
+        </div>
+</form>
+</body>
+</html>

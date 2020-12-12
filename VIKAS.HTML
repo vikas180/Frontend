@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document name here</title>
+        <!-- to link css file -->
+        <link rel="stylesheet" href="vikas.css">
+<!-- this is how you include external javascript-->
+         <p><script src="vikas.js"></script></p>
+</head>
+
+<body>
+        <h1>this is heading 1</h1>
+        <p style="color: red;">this is my para</p>
+        <strong>this is strong</strong><br>
+        <em>this is emphasis </em>
+<!-- control + enter for nxt line without cursor  -->
+ <!-- para break use br -->
+<!-- this is commen line  -->
+<!-- ctrl + forward slash for comment line-->
+<!-- use alt + enter for writing same text in number of selected areas -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum iusto corporis in atque distinctio, iste facilis quo  incidunt magnam fugit.</p>
+<h3>LINK INSERTION</h3>
+    <p><strong>for link new tab use target="_blank"</strong></p>
+    <p><a href="https://google.com"target="_blank"> go to google</a><br></p>
+    <p><a href="https://facebook.com"target="_blank"> go to facebook</a><br></p>
+    <p><a href="https://twitter.com"target="_blank"> go to twitter</a><br></p>
+    <p><a href="https://jobpontem.com"target="_blank"> go to jobpontem</a><br></p>
+    <p> <a href="https://instagram.com"target="_blank">go to insta</a>  </p>
+<p><a href="vikas.css"target="_blank"></a> </p>
+<!-- to insert an image -->
+<h3>IMAGE INSERTION</h3>
+<p>if no img is inserted then it shows the text present in alt</p>
+<p><img src="https://source.unsplash.com/900x600/?nature,water"height="200" width="200"alt="bomma ledhu thokka ledhu"></p>
+<p> <img src="htps://ayyayo.com" height="20" width="15" alt="wrong input detected"></p>
+<!-- <p><a href="https://google.com"target="_blank">go to google</a><br></p> -->
+<!-- <p><a href="https://google.com"target="_blank">go to google</a><br></p> -->
+</body>
+<!-- THIS IS LISTS  -->
+<body>
+        <h3>LISTS</h3>
+<!-- ul type="circle/square/disc" -->
+<ul type="circle">
+        <li>this is unordered one</li>
+        <li>this is unordered two</li>
+                <ul type ="disc">
+                        <li>this is unordered 1 inside unordered</li>
+                        <li>this is unordered 2 inside unordered</li>
+                        <li>this is unordered 3 inside unordered</li>
+ <!-- ol type ="1/a/A/I/i" -->
+                        <ol type="a">
+                                <li>this is ordered list 1 in unordered list</li>
+                                <li>this is ordered list 2 in unordered list</li>
+                                <li>this is ordered list 3 in unordered list</li>
+                               
+                        </ol>
+                </ul>
+        </li>
+</ul>
+<ol type="A"> 
+            
+        <li> this is ordered list 1 </li> 
+        <li> this is ordered list 2 </li> 
+        <li> this is ordered list 3 </li> 
+        <ol>
+                <li>this is ordered 1 inside ordered</li>
+                <li>this is ordered 2 inside ordered</li>
+                <li>this is ordered 3 inside ordered</li>
+        </ol>
+                 
+        
+</ol>
+<h3>TABLE</h3>
+<table>
+        <thead>
+                <tr>
+                        <td>Name</td>
+                        <td>Roll no.</td>
+                        <td>Email id</td>
+                </tr>
+        </thead>
+        <tbody>
+                <tr>
+                        <td>Vikas</td>
+                        <td>4J7</td>
+                        <td>vikasnitin mailid@</td>
+                </tr>
+                <tr>
+                        <td>Ramesh</td>
+                        <td>48874</td>
+                        <td>mail id@</td>
+                </tr>
+        </tbody>
+</table>
+</body>
+<!-- THIS IS FORMS -->
+<body>
+        
+        <h3> This is HTML Forms</h3>
+        <form action="backend.php">
+        <!-- submit the data of the form to backend.php file  -->
+        <label for="name">Name:</label>
+        <div>
+                <input type="text" name="Myname" id="name">
+        </div>
+        <div>
+                email : <input type="email" name="myemail">
+        </div>
+        <label for="eligible">Eligibility:</label>
+        <div>
+                <input type="checkbox" name="Myeligibility" id="eligible">
+        </div>
+        <div>
+                gender : Male<input type="radio" name="Mygender">
+                gender : female<input type="radio" name="Mygender">
+                gender : prefer not to say<input type="radio" name="Mygender">
+        </div>
+        <div>
+                my number : <input type="number" name="Mynumber">
+        </div>
+        <div>
+                my date of birth : <input type="date" name="MyDOB">
+        </div>  
+        <div>
+                write about yourself : <textarea name="Mytext" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+                <input type="submit" value="Submit now">
+        </div>
+        <div>
+                <input type="reset" value="Reset">
+        </div>
+</form>
+
+</body>
+</html>

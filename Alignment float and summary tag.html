@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<style>
+    * body
+{
+    box-sizing: border-box;
+    background-color:#fffde7; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+    .container
+    {
+        width: 900px;
+        border: 3px solid #6632e3;
+        margin:  33px auto;
+        /* margin auto works only if the width is mentioned */
+    }
+    .item
+        {
+            border: 3px solid rgb(65, 6, 119);
+            background-color:#E0F7FA ;
+            margin: 12px 3px  ;
+         padding: 12px 3px; 
+        }
+    #fruit
+    {
+         float: left; 
+        width: 45%;
+    }
+    #computer
+     {
+        float:left;
+        width: 50%;  
+    }
+    #stationary
+    {
+        /* float: left; */
+        /* if float is removed then the element overlaps with the remaining elements */
+        width: 97%;
+        clear: both;
+        /* clear element is used to clear the elements that overlap at the respective direction  */
+        /* clear both is used to clear both the directions of the element; */
+        
+    }
+    /* #stationary
+    {
+        float: left;
+        width: 100%;
+        the percentage determines the area of occupancy of the selected element
+    } */
+p,h3,div{
+    text-align: center;
+}
+</style>
+<body>
+
+
+<div class="container">
+    <h1 style="margin: auto;
+    width: 300px; padding-top: 13px; " >This is My page</h1>
+    <div class="item" id="fruit">
+        <h3>Fruits:</h3>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tempore nemo molestias in at iure! Eaque odio assumenda illo veniam dolores et nesciunt dolor dignissimos! Corporis praesentium rerum voluptatem consequuntur ducimus, veritatis nihil quaerat eum odit quisquam labore explicabo.
+        <br>
+        <br>
+        <details>
+            <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+            A keyboard
+        </details>
+    </div>
+    <div class="item" id="computer">
+        <h3>Computer:</h3>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, asperiores. Esse quam voluptatem nam maxime veritatis perspiciatis cumque optio officia velit qui suscipit Lorem ipsum Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. dolor sit amet, consectetur adipisicing elit. Vel, laboriosam! doloremque.
+        <br>
+        <br>
+        <details>
+            <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+            A keyboard
+        </details>
+    </div>
+    <div class="item" id="stationary">
+        <h3>Stationary:</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in laudantium, autem illum dignissimos id quibusdam repellendus natus. Omnis explicabo sunt veniam fugit assumenda perspiciatis, ad praesentium soluta blanditiis, quidem eveniet consequuntur? Autem, quasi?
+        <br>
+        <br>
+        <details>
+            <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+            A keyboard
+        </details>
+    </div>
+</div>
+</body>
+</html>
+
+
+
